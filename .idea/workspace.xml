@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4e7f2af-ecd3-4b88-874c-3541097b182f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qE5FjFvEe2Cr2Vi7gvvR50mLk2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit.jar!/" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RunManager" selected="JUnit.StrUtilTest.printProgressTest">
+    <configuration name="StrUtilTest.arrayCopyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.StrUtilTest" />
+      <option name="METHOD_NAME" value="arrayCopyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrUtilTest.consolePrintTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.StrUtilTest" />
+      <option name="METHOD_NAME" value="consolePrintTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrUtilTest.printProgressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.StrUtilTest" />
+      <option name="METHOD_NAME" value="printProgressTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrUtilTest.repeatAndJoinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.StrUtilTest" />
+      <option name="METHOD_NAME" value="repeatAndJoinTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StrUtilTest.printProgressTest" />
+        <item itemvalue="JUnit.StrUtilTest.repeatAndJoinTest" />
+        <item itemvalue="JUnit.StrUtilTest.consolePrintTest" />
+        <item itemvalue="JUnit.StrUtilTest.arrayCopyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4e7f2af-ecd3-4b88-874c-3541097b182f" name="Default Changelist" comment="" />
+      <created>1616631806313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616631806313</updated>
+      <workItem from="1616631810348" duration="22440000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="715" y="137" key="#xdebugger.evaluate" timestamp="1616674856377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="137" key="#xdebugger.evaluate/0.0.1920.1040/-1680.37.1680.1010@0.0.1920.1040" timestamp="1616674856377" />
+    <state width="395" height="646" key="DebuggerActiveHint" timestamp="1616674710056">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="395" height="646" key="DebuggerActiveHint/0.0.1920.1040/-1680.37.1680.1010@0.0.1920.1040" timestamp="1616674710056" />
+    <state x="687" y="329" key="FileChooserDialogImpl" timestamp="1616657551786">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="329" key="FileChooserDialogImpl/0.0.1920.1040/-1680.37.1680.1010@0.0.1920.1040" timestamp="1616657551786" />
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom" timestamp="1616939679977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.37.1680.1010@0.0.1920.1040" timestamp="1616939679977" />
+    <state width="1877" height="315" key="GridCell.Tab.0.center" timestamp="1616939679977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.37.1680.1010@0.0.1920.1040" timestamp="1616939679977" />
+    <state width="1877" height="315" key="GridCell.Tab.0.left" timestamp="1616939679977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.37.1680.1010@0.0.1920.1040" timestamp="1616939679977" />
+    <state width="1877" height="315" key="GridCell.Tab.0.right" timestamp="1616939679977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.37.1680.1010@0.0.1920.1040" timestamp="1616939679977" />
+    <state width="1877" height="315" key="GridCell.Tab.1.bottom" timestamp="1616939679977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.37.1680.1010@0.0.1920.1040" timestamp="1616939679977" />
+    <state width="1877" height="315" key="GridCell.Tab.1.center" timestamp="1616939679977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.37.1680.1010@0.0.1920.1040" timestamp="1616939679977" />
+    <state width="1877" height="315" key="GridCell.Tab.1.left" timestamp="1616939679977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.37.1680.1010@0.0.1920.1040" timestamp="1616939679977" />
+    <state width="1877" height="315" key="GridCell.Tab.1.right" timestamp="1616939679977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.37.1680.1010@0.0.1920.1040" timestamp="1616939679977" />
+    <state x="540" y="255" key="IDE.errors.dialog" timestamp="1616650986466">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040/-1680.37.1680.1010@0.0.1920.1040" timestamp="1616650986466" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1616672878518">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1680.37.1680.1010@0.0.1920.1040" timestamp="1616672878518" />
+    <state x="342" y="99" key="new project wizard" timestamp="1616939664466">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="99" key="new project wizard/0.0.1920.1040/-1680.37.1680.1010@0.0.1920.1040" timestamp="1616939664466" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/core/util/StrFormatter.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
