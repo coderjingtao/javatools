@@ -1,6 +1,7 @@
 package test;
 
 import main.core.lang.Console;
+import main.core.util.ReflectUtil;
 import main.core.util.StrUtil;
 import org.junit.Test;
 
@@ -38,5 +39,29 @@ public class StrUtilTest {
 
             Console.printProgress('#',100, 20/100D);
 
+    }
+
+    @Test
+    public void cloneTest(){
+
+        Person person = new Officer("Joseph");
+        Person clone = ReflectUtil.clone(person);
+        clone.setName("Tony");
+        System.out.println(person.getName());
+        System.out.println(clone.getName());
+
+    }
+
+    @Test
+    public void testReflection(){
+        ReflectUtil.printClassInfo(int.class);
+        System.out.println("---------------");
+        ReflectUtil.printClassInfo(int[].class);
+        System.out.println("---------------");
+        ReflectUtil.printClassInfo(String.class);
+        System.out.println("---------------");
+        ReflectUtil.printClassInfo(String[].class);
+        System.out.println("---------------");
+        ReflectUtil.printClassInfo(Integer.class);
     }
 }

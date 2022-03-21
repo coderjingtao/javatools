@@ -1,5 +1,7 @@
 package main.core.util;
 
+import main.core.lang.Matcher;
+
 import java.lang.reflect.Array;
 
 /**
@@ -8,8 +10,13 @@ import java.lang.reflect.Array;
  */
 public class ArrayUtil {
 
+    private static final int INDEX_NOT_FOUND = -1;
+
     public static <T> boolean isEmpty(T[] array){
         return array == null || array.length == 0;
+    }
+    public static <T> boolean isNotEmpty(T[] array){
+        return (array != null && array.length > 0);
     }
 
     public static boolean isEmpty(Object array){
@@ -20,6 +27,9 @@ public class ArrayUtil {
             return false;
         }
         return true;
+    }
+    public static boolean isNotEmpty(Object array){
+        return !isEmpty(array);
     }
 
     public static boolean isArray(Object obj){
@@ -70,4 +80,66 @@ public class ArrayUtil {
         }
         return dest;
     }
+    @SuppressWarnings("unchecked")
+    public static <T> T[] insert(T[] buffer, int index, T... newElements){
+        return (T[]) insert((Object) buffer, index, newElements);
+    }
+    @SuppressWarnings("unchecked")
+    public static <T> T[] append(T[] buffer, T... newElements){
+        if(isEmpty(buffer)){
+            return newElements;
+        }
+        return insert(buffer,buffer.length,newElements);
+    }
+
+    /**
+     * 从输入的索引开始，返回数组中第一个匹配规则的值的索引位置
+     * @param matcher 实现此接口的匹配规则
+     * @param startIndexIncluded 检索开始的位置
+     * @param array 数组
+     * @param <T> 数组的元素类型
+     * @return 匹配到的元素的位置，未匹配到返回 -1
+     */
+    @SuppressWarnings("unchecked")
+    public static <T> int matchedIndex(Matcher<T> matcher, int startIndexIncluded, T... array){
+        if(isNotEmpty(array)){
+            for(int i = startIndexIncluded; i < array.length; i++){
+                if(matcher.match(array[i])){
+                    return i;
+                }
+            }
+        }
+        return INDEX_NOT_FOUND;
+    }
+    @SuppressWarnings("unchecked")
+    public static <T> int matchedFirstIndex(Matcher<T> matcher,T... array){
+        return matchedIndex(matcher,0,array);
+    }
+    @SuppressWarnings("unchecked")
+    public static <T> T firstMatched(Matcher<T> matcher, T... array){
+        final int index = matchedFirstIndex(matcher,array);
+        if(index < 0){
+            return null;
+        }
+        return array[index];
+    }
+    @SuppressWarnings("unchecked")
+    public static <T> T clone(final T obj){
+        if(!isArray(obj)){
+            return null;
+        }
+        final Object result;
+        final Class<?> elementType = obj.getClass().getComponentType();
+        if(elementType.isPrimitive()){
+            int length = Array.getLength(obj);
+            result = Array.newInstance(elementType,length);
+            while(length-- > 0){
+                Array.set(result,length,Array.get(obj,length));
+            }
+        }else{
+            result = ((Object[]) obj).clone();
+        }
+        return (T) result;
+    }
+
 }
